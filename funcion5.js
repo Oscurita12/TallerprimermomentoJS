@@ -1,11 +1,6 @@
-/* def calculo (x = input("La cantidad de licencia vendidas son: ")) :
- 
-    licencia = int(x)
-    salario = int(3500000)
-    comision = int(1500000)
-    total = int(((comision + salario) * 0.05)* licencia)
-    totalsalario = total + salario
-    resultado = print(f'El salario mensual de un vendedor es {totalsalario}')
-    return resultado
- 
-print(calculo()) */
+function calculo (x){
+    let total=((((1500000 + 3500000) * 0.05) * x) + 3500000)
+    return total
+}
+let licencias=calculo(3)
+console.log(licencias)

@@ -4,7 +4,7 @@ function filtrarPlanos(planos,arrancarNave) {
         return plano>=1 & plano<=10
     })
 
-    arrancarNave()
+    arrancarNave(filtro)
 }
 
 let planos = [1,210,320,400,500]

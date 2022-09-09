@@ -14,5 +14,6 @@ let temperaturas_dias = [
     {minima: 4, maxima: 11, dia:6},
     {minima: 2, maxima: 10, dia:7},
 ]
-temperaturas_dias.forEach(temperatura=>{console.log(`el promedio del dia ${temperatura.dia}, es: ${(temperatura.minima+temperatura.maxima)/2}`);})
-
+temperaturas_dias.forEach(function(temperatura){
+    console.log(`el promedio del dia ${temperatura.dia}, es: ${(temperatura.minima+temperatura.maxima)/2}`)
+})

@@ -7,3 +7,5 @@ function obtenerNombre (codigo){
 //Llamando a la función 
 let resultado=obtenerNombre("1025640454: Clara Restrepo ")
 console.log("El piloto se llama "+resultado)
+
+let piloto = []
