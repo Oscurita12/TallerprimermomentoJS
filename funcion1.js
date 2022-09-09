@@ -4,4 +4,4 @@ function calculaDistancia(x1,y1,x2,y2) {
 }
 
 //Llamar a la función 
-calculaDistancia(1,3,12,0)
+console.log(calculaDistancia(1,3,12,0))

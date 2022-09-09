@@ -10,7 +10,7 @@ function crearAprendiz(nombre,planeta,edad,estatura,clasificarAprendiz){
 }
 
 crearAprendiz('Clara','Tierra', 18, 1.72, function(aprendiz){
-    if(aprendiz>=15){
+    if(aprendiz.edad>=15){
         console.log("Usted se va para la clase de sable de luz")
     }
     else {
